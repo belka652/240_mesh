@@ -22,8 +22,10 @@ const RegionInfo regions[] = {
     /*
         https://link.springer.com/content/pdf/bbm%3A978-1-4842-4357-2%2F1.pdf
         https://www.thethingsnetwork.org/docs/lorawan/regional-parameters/
+
+        RDEF(US, 902.0f, 928.0f, 100, 0, 30, true, false, false),
     */
-    RDEF(US, 902.0f, 928.0f, 100, 0, 30, true, false, false),
+    RDEF(US, 433.0f, 434.0f, 10, 0, 30, true, false, false),
 
     /*
         https://lora-alliance.org/wp-content/uploads/2020/11/lorawan_regional_parameters_v1.0.3reva_0.pdf
